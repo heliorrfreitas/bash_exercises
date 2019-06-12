@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function main {
-    if [[ $# -ne 1 ]];
+    if (( $# != 1 ));
     then
         echo "Usage: ./error_handling <greetee>"
         exit 1
